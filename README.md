@@ -12,28 +12,29 @@ We're trying to help our client, Louise, better understand how different campaig
 
 ### Analysis of Outcomes Based on Launch Date
 The following chart was created to provide an overview of the success rate for Kickstarter campaigns for each month throughout the years 2009 through 2017. 
-[Theater_Outcomes_vs_Launch](https://github.com/mrmarken/dmartinez_challenge1/blob/main/resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](https://github.com/mrmarken/dmartinez_challenge1/blob/main/resources/Theater_Outcomes_vs_Launch.png)
 The data was obtained from the [Kickstarter_Challenge_DM.xlsx](https://github.com/mrmarken/dmartinez_challenge1/blob/main/resources/Kickstarter_Challenge_DM.xlsx) file by exclusively focusing in the parent category "Theater." 
 
 This analysis was done by creating a pivot table and accompanying line chart to visualize the percentages for each of the three outcome categories: "success," "failed" and "canceled".  This was done for each entry in the Theater category.  Furthermore, the analysis took into consideration the dates the campaign was created and not when it was completed over the period of 2009 through 2017.
 
 ### Analysis of Outcomes Based on Goals
 For this analysis, the data was further constrained to the sub-category of "plays" under the parent category of "Theater."  The ensuing chart, provides an overview of the percentage of successful vs failed campaigns given various fundraising goal targets: 
-[Outcomes_vs_Goals.png](https://github.com/mrmarken/dmartinez_challenge1/blob/main/resources/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals.png](https://github.com/mrmarken/dmartinez_challenge1/blob/main/resources/Outcomes_vs_Goals.png)
 This analysis was completed by constraining the target goals to be fall within the following ranges:
+
 **Goal Ranges (in $)**
-Less Than 1000
-1000 to 4999
-5000 to 9999
-10000 to 14999
-15000 to 19999
-20000 to 24999
-25000 to 29999
-30000 to 34999
-35000 to 39999
-40000 to 44999
-45000 to 49999
-50000 or More
+- Less Than 1000
+- 1000 to 4999
+- 5000 to 9999
+- 10000 to 14999
+- 15000 to 19999
+- 20000 to 24999
+- 25000 to 29999
+- 30000 to 34999
+- 35000 to 39999
+- 40000 to 44999
+- 45000 to 49999
+- 50000 or More
 
 The ensuing chart shows the percentages of success/failure for each campaign given the ranges outlined above.
 
@@ -44,7 +45,8 @@ Additionally, I can see that not paying attention to the arguments in the "COUNT
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+### What are two conclusions you can draw about the Outcomes based on Launch Date?
+
 Based on the data obtained in the "Outcomes based on Launch Date" graph, we can surmise the following:
 1. Campaigns launched in the months of April through August had the most successful outcomes by numbers. 
    - A minimum of 71 campaigns were successfully completed each month
@@ -55,7 +57,8 @@ Based on the data obtained in the "Outcomes based on Launch Date" graph, we can 
    - This month had by far the highest rate of failure in the data analyzed at 47% for all campaigns launched in the time-period analyzed.
 
 
-- What can you conclude about the Outcomes based on Goals?
+### What can you conclude about the Outcomes based on Goals?
+
 Based on the data obtained in the "Outcomes based on Goal" graph, we can provide the following conclusions:
 1. The most successful target goals for fund-raising campaigns seem to be:
    - Campaigns with targets of $999 or less which had a 76% success rate
@@ -65,13 +68,15 @@ Based on the data obtained in the "Outcomes based on Goal" graph, we can provide
    - The peak of failures seems to start at the goal target range between $25,000 to $29,999 (at 80%) 
    - The success rate takes a slight deviation from this pattern in the following two ranges: $35,000 to $39,999 (67% success) and $40,000 to $44,999 (67% success).  However, it is important to note that the total number of projects at these ranges (6 and 3, respectively) are relatively small and not much more analysis can be drawn from this dataset as it’s currently broken down.
 
-- What are some limitations of this dataset?
+### What are some limitations of this dataset?
+
+Some observed limitations with this data set: 
   - The datasets do not currently allow us to make any direct correlations between the launch dates and the goal ranges.
   - Some data points may have too few samples to make any meaningful conclusions.
   - We still don’t have clear requirements from Louise and we may need to discuss these initial findings to uncover other needed data/information.
 
 
-- What are some other possible tables and/or graphs that we could create?
+### What are some other possible tables and/or graphs that we could create?
   To obtain better analysis of the outcomes based on Launch date, there are a couple of items that can help us provide a better analysis:
   - A table or chart breaking down the percentages for each outcome by month
   - Constrain the data to "plays" only so that we can make more direct comparisons with the data in Outcomes Based on Goal
